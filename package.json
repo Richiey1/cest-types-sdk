@@ -1,5 +1,5 @@
 {
-  "name": "stacks-types-sdk",
+  "name": "cest-types-sdk",
   "version": "1.0.1",
   "description": "Type definitions, constants, and network configs for Stacks L2 development",
   "main": "dist/index.js",
@@ -31,10 +31,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Richiey1/stacks-types-sdk"
+    "url": "https://github.com/Richiey1/cest-types-sdk"
   },
   "bugs": {
-    "url": "https://github.com/Richiey1/stacks-types-sdk/issues"
+    "url": "https://github.com/Richiey1/cest-types-sdk/issues"
   },
-  "homepage": "https://github.com/Richiey1/stacks-types-sdk#readme"
+  "homepage": "https://github.com/Richiey1/cest-types-sdk#readme"
 }
