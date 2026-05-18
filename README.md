@@ -1,18 +1,18 @@
-# richiey1-stacks-helpers-types
+# cest-types-sdk
 
 Type definitions, network configs, and SIP standard constants for Stacks L2 development.
 
 ## Install
 
 ```bash
-npm install richiey1-stacks-helpers-types
+npm install cest-types-sdk
 ```
 
 ## Usage
 
 ```typescript
-import { MAINNET, TESTNET, API_URLS, CHAIN_IDS, SIP010_TRAIT } from "richiey1-stacks-helpers-types";
-import type { ContractCallOptions, WalletAccount, BatchResult } from "richiey1-stacks-helpers-types";
+import { MAINNET, TESTNET, API_URLS, CHAIN_IDS, SIP010_TRAIT } from "cest-types-sdk";
+import type { ContractCallOptions, WalletAccount, BatchResult } from "cest-types-sdk";
 
 // Use network configs
 const apiUrl = API_URLS.mainnet; // "https://api.hiro.so"

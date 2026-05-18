@@ -45,3 +45,28 @@ export interface NonceInfo {
 }
 
 export type NetworkName = "mainnet" | "testnet";
+
+// Celo / EVM Types
+export interface EvmTransactionResult {
+  txHash: string;
+  contractAddress?: string;
+  success: boolean;
+  error?: string;
+}
+
+export interface EvmDeployOptions {
+  abi: any[];
+  bytecode: string;
+  privateKey: string;
+  providerUrl?: string;
+  args?: any[];
+  gasLimit?: bigint;
+  gasPrice?: bigint;
+}
+
+export interface Erc20Metadata {
+  name: string;
+  symbol: string;
+  decimals: number;
+}
+
