@@ -1,6 +1,6 @@
 {
   "name": "cest-types-sdk",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Type definitions, constants, and network configs for Stacks L2 development",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
