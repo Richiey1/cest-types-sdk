@@ -1,7 +1,7 @@
 {
   "name": "cest-types-sdk",
-  "version": "1.1.0",
-  "description": "Type definitions, constants, and network configs for Stacks L2 development",
+  "version": "1.1.1",
+  "description": "Type definitions, constants, and network configs for Celo EVM and Stacks L2 development",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -22,6 +22,9 @@
     "access": "public"
   },
   "keywords": [
+    "celo",
+    "evm",
+    "hybrid",
     "stacks",
     "bitcoin",
     "l2",
